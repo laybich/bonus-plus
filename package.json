@@ -1,0 +1,42 @@
+{
+  "name": "bonus_plus",
+  "version": "1.0.0",
+  "description": "BonusPlus Internet-shop project",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "mustache": "gulp mustache",
+    "clear": "gulp clear "
+  },
+  "author": "Matvij<super.matvij@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@types/jquery-countdown": "^2.2.2",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.4",
+    "del": "^6.0.0",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-mustache": "^5.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-xml2json": "^0.1.5",
+    "postcss": "^8.3.0",
+    "postcss-uncss": "^0.17.0",
+    "rename": "^1.0.4",
+    "typescript": "^4.3.2",
+    "uncss": "^0.17.3",
+    "xhr": "^2.6.0"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 10",
+    "maintained node versions"
+  ]
+}

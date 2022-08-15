@@ -1,0 +1,138 @@
+h1 {
+	margin-bottom: 100px;
+	line-height: 1em;
+}
+
+#timer {
+	padding-top: 80px;
+}
+
+#product-desc {
+	padding: 60px 0 40px;
+}
+
+.product-desc {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+}
+
+.product-desc .left-part {
+	width: 40%;
+}
+
+.product-desc .right-part {
+	width: 60%;
+}
+
+.owl-carousel {
+	margin-bottom: 40px;
+}
+
+.product-desc p {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.product-desc img {
+	text-align: left;
+	margin-bottom: 80px;
+	max-width: 80%;
+}
+
+.btn-basket {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.btn-basket.d-sm-none {
+	display: none;
+}
+
+.owl-carousel .owl-item img {
+	margin: 0 auto;
+}
+
+.review {
+	text-align: left;
+	padding: 0 20px;
+}
+
+.review:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.r-head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.r-body {
+	padding: 10px 0;
+}
+
+.r-name {
+	opacity: 0.7;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pluses, .minuses {
+	opacity: 0.7;
+}
+
+.r-star {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../img/star-empty.png')  no-repeat center / contain;
+	vertical-align: text-bottom;
+}
+
+.r-star_active {
+	background: url('../img/gold-star.png')  no-repeat center / contain;
+}
+
+.r-date {
+	opacity: .5;
+}
+
+/* ======================= RESPONSIVE ======================= */
+
+ @media screen and (max-width: 960px) {
+
+h1 {
+	margin-bottom: 60px;
+}
+
+.product-desc {
+	flex-wrap: wrap;
+}
+
+.product-desc .left-part {
+	width: 100%;
+}
+
+.product-desc .right-part {
+	width: 80%;
+	margin: 60px auto 0;
+}
+
+.btn-basket.d-sm-none {
+	display: block;
+}
+
+}
+
+@media screen and (max-width: 596px) {
+
+h1 {
+	font-size: 1.5em;
+}
+
+.clock {
+	padding-top: 20px;
+}
+
+}

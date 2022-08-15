@@ -1,0 +1,10 @@
+{
+	"product_id": -1,
+	"category_id": -1,
+	"title": "None",
+	"specifications": "None",
+	"value": "-1",
+	"photos": [
+		{"img": {"src": "none", "alt": "none"}}
+	]
+}
