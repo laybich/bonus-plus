@@ -9,6 +9,7 @@ const parser = require('gulp-xml2json');
 // Html
 const htmlmin = require('gulp-htmlmin');
 // Css
+const minifycss = require('gulp-minify-css');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
@@ -36,10 +37,7 @@ function html() {
 
 function css() {
 	return src('src/css/*.css')
-		.pipe(postcss([
-			// autoprefixer(),
-			cssnano()
-		]))
+		.pipe(minifycss())
 		.pipe(rename({extname: '.min.css'}))
 		.pipe(dest(DIST+'/css/'));
 }
