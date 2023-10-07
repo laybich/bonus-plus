@@ -37,7 +37,7 @@ function html() {
 function css() {
 	return src('src/css/*.css')
 		.pipe(postcss([
-			autoprefixer(),
+			// autoprefixer(),
 			cssnano()
 		]))
 		.pipe(rename({extname: '.min.css'}))
