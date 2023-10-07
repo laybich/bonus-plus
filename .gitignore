@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# dist
+/dist
+
 # other files
 *.txt
 *.url
