@@ -18,7 +18,7 @@ const typescript = require('gulp-typescript');
 const terser = require('gulp-terser');
 const mustache = require('gulp-mustache');
 
-const DIST = 'C:/xampp/htdocs';
+const DIST = 'dist';
 
 function mustacheCompile() {
 	return src('src/products/prodct.mustache')

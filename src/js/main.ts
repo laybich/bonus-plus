@@ -31,10 +31,7 @@ class App {
 		let getTimeRemaining = (endtime:string) => String(Date.parse(endtime) - Date.parse(String(new Date())));
 
 		let startTime = new Date(+getTimeRemaining('2021-' + ('0' + (new Date().getMonth() + 2)).slice(-2) + '-01'));
-		$('#counter').countdown({
-			image: './img/digits.png',
-			startTime: `${('0' + startTime.getDate()).slice(-2)}:${('0' + startTime.getHours()).slice(-2)}:${('0' + startTime.getMinutes()).slice(-2)}:${('0' + startTime.getSeconds()).slice(-2)}`
-		});
+		$('#counter').countdown('2021-' + ('0' + (new Date().getMonth() + 2)).slice(-2) + '-01');
 	}
 
 	BasketInit():void {
